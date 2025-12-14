@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 140 70"
+     role="img"
+     aria-label="Logo Nils Höppner">
+  <defs>
+    <filter id="nh-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.47
+                0 0 0 0 0.70
+                0 0 0 0 1
+                0 0 0 0.8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="140" height="70" fill="none"/>
+
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="6" filter="url(#nh-glow)">
+    <path d="M30 55 V15 L70 55 V15"
+          fill="none"
+          stroke="#f2f2f2"/>
+    <path d="M70 55 V15"
+          fill="none"
+          stroke="#78b4ff"/>
+    <path d="M70 35 H110"
+          fill="none"
+          stroke="#78b4ff"/>
+    <path d="M110 55 V15"
+          fill="none"
+          stroke="#78b4ff"/>
+  </g>
+</svg>

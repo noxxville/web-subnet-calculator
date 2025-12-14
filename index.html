@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+  <head>
+    <title>Subnet Calculator – IPv4 Subnetting & CIDR Tree Tool</title>
+    <meta name="description"
+          content="Moderner IPv4 Subnet Calculator mit CIDR-Analyse, Tree-Splitting (/+1), Usable IPs und Host-Berechnung. Schnell, lokal und ohne Tracking." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://www.example.com/subnet-calculator/">
+    <link rel="icon" type="image/svg+xml" href="assets/img/logo-nh.svg">
+    <link rel="apple-touch-icon" href="assets/img/logo-nh.svg">
+
+    <meta name="robots" content="index, follow">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="assets/vendor/react.production.min.js"></script>
+    <script defer src="assets/vendor/react-dom.production.min.js"></script>
+    <script defer src="assets/js/app.js"></script>
+
+    <!-- Google Fonts -->
+    <!-- Preload critical fonts (local) -->
+    <!-- Local Fonts -->
+    <link rel="preload" href="assets/fonts/inter/inter-v20-latin-regular.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="assets/fonts/inter/inter-v20-latin-600.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="assets/fonts/inter/inter.css">
+    <link rel="stylesheet" href="assets/fonts/montserrat/montserrat.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Subnet Calculator",
+      "applicationCategory": "NetworkingApplication",
+      "operatingSystem": "All",
+      "description": "IPv4 Subnet Calculator mit CIDR-Analyse, Tree-Splitting und Usable-IP-Berechnung.",
+      "url": "https://www.example.com/subnet-calculator/",
+      "author": {
+        "@type": "Person",
+        "name": "Nils Höppner"
+      }
+    }
+    </script>
+  </head>
+
+  <body class="h-full bg-slate-950 text-slate-100">
+    <div id="root" class="h-full"></div>
+
+    <button id="scrollTopBtn" aria-label="Nach oben scrollen" title="Nach oben">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 5l7 7-1.4 1.4L13 8.8V20h-2V8.8L6.4 13.4 5 12l7-7z"/>
+      </svg>
+    </button>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 140 70"
+     role="img"
+     aria-label="Logo Nils Höppner">
+  <rect width="140" height="70" fill="none"/>
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+    <path d="M30 55 V15 L70 55 V15"
+          fill="none"
+          stroke="#f2f2f2"/>
+    <path d="M70 55 V15"
+          fill="none"
+          stroke="#78b4ff"/>
+    <path d="M70 35 H110"
+          fill="none"
+          stroke="#78b4ff"/>
+    <path d="M110 55 V15"
+          fill="none"
+          stroke="#78b4ff"/>
+  </g>
+</svg>
